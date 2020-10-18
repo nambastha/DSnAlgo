@@ -70,7 +70,7 @@ public class PrimeNumber {
 
         result = PrimeNumber.findPrimes(20);
         for (int primeNum:result){
-            System.out.println("Prime number 2nd approach ==> "+ primeNum);
+            System.out.println("Prime number ==> "+ primeNum);
         }
 
     }

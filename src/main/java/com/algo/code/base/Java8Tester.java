@@ -15,6 +15,7 @@ public class Java8Tester {
         //Optional.of - throws NullPointerException if passed parameter is null
         Optional<Integer> b = Optional.of(value2);
         System.out.println(java8Tester.sum(a,b));
+        System.out.println("strawberries".substring(5,2));
     }
 
     public Integer sum(Optional<Integer> a, Optional<Integer> b) {

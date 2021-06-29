@@ -25,6 +25,14 @@
         </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
 
+        <dependency>
+            <groupId>net.openhft</groupId>
+            <artifactId>chronicle-map</artifactId>
+            <version>3.17.2</version>
+        </dependency>
+
+
+
 
     </dependencies>
     <build>
